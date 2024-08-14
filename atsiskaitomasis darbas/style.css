@@ -127,6 +127,7 @@ h2 {
 .collar {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  padding-bottom: 5rem;
 }
 .collar-dog {
   height: 100%;
@@ -187,18 +188,113 @@ h2 {
   color: black;
 }
 .belts {
+  padding-top: 2rem;
   background-color: rgb(230, 216, 249);
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-style: normal;
-  min-height: 100px;
+  height: 630px;
   width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 0;
+  padding-right: 0;
 }
 .card-1 {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .green-belt {
-  height: 200px;
+  height: 350px;
+}
+.card-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.brown-belt {
+  height: 350px;
+}
+.card-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.purple-belt {
+  height: 350px;
+}
+.shop-4,
+.shop-5,
+.shop-6 {
+  padding-top: 0.5rem;
+}
+
+.shop-1 {
+  background-color: rgb(230, 216, 249);
+  color: black;
+  border-radius: 1px solid black;
+  border-radius: 10px;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  margin-top: 9px;
+}
+
+.shop-1:hover {
+  font-size: 20px;
+  background-color: black;
+  color: rgb(230, 216, 249);
+  transition-timing-function: ease;
+  transition-duration: 0.4s;
+  transition-delay: 0.155556s;
+  opacity: 1;
+}
+.shop-2 {
+  background-color: rgb(230, 216, 249);
+  color: black;
+  border-radius: 1px solid black;
+  border-radius: 10px;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  margin-top: 9px;
+}
+.shop-2:hover {
+  font-size: 20px;
+  background-color: black;
+  color: rgb(230, 216, 249);
+  transition-timing-function: ease;
+  transition-duration: 0.4s;
+  transition-delay: 0.155556s;
+  opacity: 1;
+}
+
+.shop-3 {
+  background-color: rgb(230, 216, 249);
+  color: black;
+  border-radius: 1px solid black;
+  border-radius: 10px;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  margin-top: 9px;
+}
+.shop-3:hover {
+  font-size: 20px;
+  background-color: black;
+  color: rgb(230, 216, 249);
+  transition-timing-function: ease;
+  transition-duration: 0.4s;
+  transition-delay: 0.155556s;
+  opacity: 1;
+}
+h3 {
+  display: flex;
+  gap: 2rem;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  line-height: 2rem;
 }
 @media only screen and (max-width: 768px) {
   header nav {
