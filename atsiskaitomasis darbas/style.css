@@ -1,0 +1,294 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.page-wrapper {
+  padding: 1rem 3rem;
+  background-color: rgb(255, 232, 186);
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  height: 310vh;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  height: 70px;
+}
+.burger-btn-wrapper {
+  width: 2rem;
+  display: none;
+}
+
+.burger-btn-wrapper img {
+  width: 100%;
+}
+.trolley-container a {
+  text-decoration: none;
+  color: black;
+}
+.trolley-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.trolley {
+  height: 30px;
+}
+header nav ul li {
+  list-style: none;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  gap: 1rem;
+}
+.web-name {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  letter-spacing: 0.1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.links {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  padding: 0.5rem 0rem;
+  letter-spacing: 0.1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header span a {
+  text-decoration: none;
+}
+hr {
+  border: none;
+  background-color: black;
+  height: 1px;
+}
+.main-dog {
+  width: 100%;
+  height: 50%;
+  border-radius: 60px;
+}
+h1 {
+  padding-bottom: 2rem;
+  padding-top: 4rem;
+  font-size: 5rem;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 6rem;
+}
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3.5rem;
+  padding-right: 8rem;
+  padding-top: 3rem;
+}
+
+.text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  padding-left: 13rem;
+  padding-top: 3.4rem;
+  letter-spacing: 0.01rem;
+  line-height: 1.2rem;
+}
+.learn {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-left: 13rem;
+  letter-spacing: 0.01rem;
+  color: black;
+  display: flex;
+  padding-top: 1rem;
+}
+.collar {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.collar-dog {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  padding-left: 5.5rem;
+  padding-top: 4rem;
+}
+
+.collar-neckles > img {
+  height: 450px;
+  width: 75%;
+  object-fit: cover;
+  display: flex;
+  position: relative;
+  padding: 1rem 5rem;
+  top: 220px;
+  left: 85px;
+}
+
+.collar-button {
+  position: absolute;
+  left: 58rem;
+  bottom: -72rem;
+  font-size: 20px;
+  opacity: 0;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.collar-button:hover {
+  position: absolute;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  transition-timing-function: ease;
+  transition-duration: 0.4s;
+  transition-delay: 0.155556s;
+  opacity: 1;
+}
+.collar-neckles span .collar-button {
+  padding: 0.8rem;
+  font-size: 0.8rem;
+  position: absolute;
+}
+.price {
+  padding-top: 13.5rem;
+  line-height: 1.2rem;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  padding-left: 1rem;
+}
+.price a {
+  text-decoration: none;
+  color: black;
+}
+.belts {
+  background-color: rgb(230, 216, 249);
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  min-height: 100px;
+  width: 100%;
+}
+.card-1 {
+  display: flex;
+}
+.green-belt {
+  height: 200px;
+}
+@media only screen and (max-width: 768px) {
+  header nav {
+    display: none;
+  }
+
+  .burger-btn-wrapper {
+    display: block;
+  }
+  header {
+    align-items: center;
+    padding-bottom: 2rem;
+  }
+  h1 {
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+    font-size: 3rem;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 3rem;
+  }
+  .web-name {
+    font-size: 18px;
+  }
+  .about {
+    grid-template-columns: 1fr;
+  }
+
+  h2 {
+    font-size: 2.3rem;
+    text-align: center;
+    padding-right: 0;
+  }
+
+  .text {
+    font-size: 1rem;
+    padding-left: 0rem;
+    padding-top: 4rem;
+    letter-spacing: 0.01rem;
+    line-height: 1rem;
+  }
+  .learn {
+    padding-left: 0;
+  }
+  .collar {
+    grid-template-columns: 1fr;
+  }
+  .collar-dog {
+    height: 100%;
+    width: 80%;
+    padding-left: 0rem;
+    padding-top: 6rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .collar-neckles > img {
+    height: 300px;
+    width: 60%;
+    object-fit: cover;
+    position: relative;
+    padding: 0rem;
+    top: 0;
+    left: 40%;
+  }
+  .collar-button {
+    position: absolute;
+    left: 10rem;
+    bottom: -50%;
+    font-size: 20px;
+  }
+  .collar-neckles span .collar-button {
+    background-color: blue;
+    padding: 0.8rem;
+    font-size: 0.8rem;
+  }
+  .price {
+    padding-top: 1rem;
+    line-height: 1.2rem;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+    padding-left: 10em;
+  }
+  .price a {
+    text-decoration: none;
+    color: black;
+  }
+}
