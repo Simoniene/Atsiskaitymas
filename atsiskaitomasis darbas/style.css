@@ -4,15 +4,18 @@
   box-sizing: border-box;
 }
 .page-wrapper {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  height: 306vh;
+}
+main {
   padding: 1rem 3rem;
   background-color: rgb(255, 232, 186);
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  height: 310vh;
 }
-
 header {
+  padding: 1rem 3rem;
+  background-color: rgb(255, 232, 186);
   display: flex;
   justify-content: center;
   justify-content: space-between;
@@ -52,20 +55,14 @@ header nav ul li a {
   text-decoration: none;
   color: black;
   font-size: 25px;
-  letter-spacing: 0.1rem;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
 }
 .links {
   display: flex;
   flex-direction: row;
   gap: 2rem;
-  padding: 0.5rem 0rem;
-  letter-spacing: 0.1rem;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-right: 6rem;
 }
 
 header span a {
@@ -77,54 +74,52 @@ hr {
   height: 1px;
 }
 .main-dog {
+  padding: 1rem 3rem;
   width: 100%;
   height: 50%;
   border-radius: 60px;
 }
 h1 {
+  padding: 1rem 3rem;
   padding-bottom: 2rem;
   padding-top: 4rem;
   font-size: 5rem;
   text-align: center;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
   line-height: 6rem;
+  font-weight: 400;
 }
 .about {
+  padding: 1rem 3rem;
+  background-color: rgb(255, 232, 186);
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-h2 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+.welcome-1 {
+  padding: 1rem 3rem;
   font-size: 3.5rem;
+  font-weight: 400;
   padding-right: 8rem;
   padding-top: 3rem;
 }
 
 .text {
-  font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-style: normal;
   font-size: 1rem;
   padding-left: 13rem;
   padding-top: 3.4rem;
-  letter-spacing: 0.01rem;
+
   line-height: 1.2rem;
 }
 .learn {
-  font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-style: normal;
   padding-left: 13rem;
-  letter-spacing: 0.01rem;
   color: black;
   display: flex;
   padding-top: 1rem;
 }
 .collar {
+  padding: 1rem 3rem;
+  background-color: rgb(255, 232, 186);
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding-bottom: 5rem;
@@ -188,51 +183,47 @@ h2 {
   color: black;
 }
 .belts {
+  padding: 1rem 3rem;
   padding-top: 2rem;
   background-color: rgb(230, 216, 249);
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-style: normal;
   height: 630px;
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding-left: 0;
-  padding-right: 0;
 }
 .card-1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 0.5rem;
 }
 .green-belt {
-  height: 350px;
+  height: 390px;
+  padding-bottom: 1rem;
 }
 .card-2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 0.5rem;
 }
 .brown-belt {
-  height: 350px;
+  height: 390px;
+  padding-bottom: 1rem;
 }
 .card-3 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 0.5rem;
 }
 .purple-belt {
-  height: 350px;
+  height: 390px;
+  padding-bottom: 1rem;
 }
-.shop-4,
-.shop-5,
-.shop-6 {
-  padding-top: 0.5rem;
-}
-
 .shop-1 {
   background-color: rgb(230, 216, 249);
   color: black;
@@ -293,8 +284,135 @@ h3 {
   display: flex;
   gap: 2rem;
   font-weight: 400;
-  letter-spacing: 0.1rem;
   line-height: 2rem;
+}
+.friends {
+  padding: 1rem 3rem;
+  height: 600px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.text-1 {
+  text-align: center;
+  font-size: 3.8rem;
+  padding-top: 4rem;
+}
+.text-2 {
+  text-align: center;
+  font-size: 1.1rem;
+  padding-top: 1rem;
+}
+.text-3 {
+  text-align: center;
+  font-size: 1.4rem;
+
+  padding-right: 18rem;
+  padding-left: 18rem;
+  padding-bottom: 7rem;
+}
+.follow {
+  padding: 1rem 3rem;
+  background-color: rgb(255, 232, 186);
+}
+.follow-1 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 3.5rem;
+}
+.follow-1 a {
+  color: black;
+  text-decoration: 1px underline;
+}
+.dogs-pictures {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.dogs {
+  height: 270px;
+  object-fit: cover;
+  border-radius: 40px;
+}
+.pup {
+  padding-bottom: 3rem;
+  text-align: center;
+}
+footer {
+  padding: 1rem 3rem;
+  background-color: rgb(255, 232, 186);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.column-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.social {
+  display: flex;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.web-name-1 {
+  font-size: 25px;
+}
+.made {
+  font-size: 14px;
+}
+.made a {
+  color: black;
+}
+.column-2 {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: first baseline;
+}
+.column-2 nav ul li a {
+  color: black;
+}
+.column-2 nav ul li {
+  list-style: none;
+}
+.column-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.email-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  border-radius: 1px solid rgb(241, 241, 241);
+}
+.email {
+  padding: 1.2rem 0rem;
+  padding-left: 0.5rem;
+  padding-right: 5rem;
+  border-radius: 1px solid rgb(241, 241, 241);
+}
+.sing-up {
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  padding-left: 2.4rem;
+  padding-right: 2.4rem;
+  background-color: rgb(255, 232, 186);
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 0.8rem;
+}
+.sing-up:hover {
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  transition-duration: 0.4s;
+  transition-delay: 0.155556s;
+  opacity: 1;
 }
 @media only screen and (max-width: 768px) {
   header nav {
